@@ -86,6 +86,7 @@ const SideBar = () => {
           </Box>
         </MenuItem>
       </Menu>
+      {/* TODO: remove if not needed
       {!collapsed && (
         <Box
           sx={{
@@ -115,6 +116,7 @@ const SideBar = () => {
           </Box>
         </Box>
       )}
+       */}
 
       <Box mb={5} pl={collapsed ? undefined : "5%"}>
         <Menu
@@ -172,6 +174,7 @@ const SideBar = () => {
             icon={<ReceiptOutlined />}
           />
         </Menu>
+        {/* TODO: remove if not needed
         <Typography
           variant="h6"
           color={colors.gray[300]}
@@ -209,6 +212,7 @@ const SideBar = () => {
             icon={<HelpOutlineOutlined />}
           />
         </Menu>
+         */}
         <Typography
           variant="h6"
           color={colors.gray[300]}
@@ -245,6 +249,7 @@ const SideBar = () => {
             colors={colors}
             icon={<TimelineOutlined />}
           />
+          {/* TODO: remove if not needed
           <Item
             title="Geography Chart"
             path="/geography"
@@ -257,6 +262,7 @@ const SideBar = () => {
             colors={colors}
             icon={<WavesOutlined />}
           />
+           */}
         </Menu>
       </Box>
     </Sidebar>
