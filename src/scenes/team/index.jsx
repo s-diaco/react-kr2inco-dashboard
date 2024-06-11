@@ -8,6 +8,8 @@ import {
   LockOpenOutlined,
   SecurityOutlined,
 } from "@mui/icons-material";
+// TODO: delete this and its div section
+import HelloWorld from '../../HelloWorld';
 
 const Team = () => {
   const theme = useTheme();
@@ -62,6 +64,9 @@ const Team = () => {
   return (
     <Box m="20px">
       <Header title="TEAM" subtitle="Managing the Team Members" />
+      <div>
+        <HelloWorld />
+      </div>
       <Box
         mt="40px"
         height="75vh"
